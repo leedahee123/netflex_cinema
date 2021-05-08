@@ -1,0 +1,101 @@
+@import '../styles/globals.css';
+
+main {
+  color: #757575;
+  background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)),
+    url('/back_img.jpg');
+}
+
+.header {
+  padding-top: 20px;
+  padding-bottom: 10px;
+}
+
+.title {
+  height: 36px;
+}
+
+.detail_page {
+  display: flex;
+  justify-content: center;
+}
+
+.login_main {
+  display: block;
+  width: 314px;
+  height: 560px;
+  padding: 40px 68px 50px;
+
+  background-color: rgba(0, 0, 0, 0.75);
+  border: none;
+}
+
+.login_header {
+  color: white;
+}
+
+.password {
+  padding-top: 15px;
+}
+
+.email_box,
+.password_box {
+  padding: 16px 101px 16px 18px;
+  background-color: #333;
+  border: none;
+  border-radius: 5px;
+  font-size: medium;
+  color: white;
+}
+
+input:focus {
+  outline: none;
+}
+
+.place_label {
+  left: 20px;
+}
+
+.login {
+  padding-top: 20px;
+}
+
+.login_btn {
+  display: inline-block;
+  width: 100%;
+  max-width: 100%;
+  margin: 24px 0 12px;
+  padding: 16px;
+  line-height: 1em;
+
+  background: #e50914;
+  color: #fff;
+  border: none;
+  border-radius: 4px;
+  font-size: 16px;
+  font-weight: 700;
+}
+
+.sns_login {
+  padding-top: 40px;
+}
+
+.facebook {
+  color: #757575;
+  text-decoration: none;
+  font-size: small;
+}
+
+.join_btn {
+  text-decoration: none;
+  color: white;
+}
+
+p {
+  padding-top: 10px;
+}
+
+.footer {
+  background: rgba(0, 0, 0, 0.75);
+  color: #757575;
+}
