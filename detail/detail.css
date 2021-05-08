@@ -1,0 +1,64 @@
+@import '../styles/globals.css';
+
+.nav_right li {
+  list-style: none;
+  float: right;
+  padding-top: 5px;
+  padding-right: 20px;
+}
+
+.footer {
+  padding-bottom: 30px;
+  padding-top: 30px;
+  text-align: center;
+  background: black;
+  color: white;
+  font-weight: bold;
+}
+
+.detail_page {
+  display: flex;
+  justify-content: center;
+  padding-bottom: 50px;
+}
+
+.information_left {
+  text-align: left;
+  width: 500px;
+}
+
+.information_right {
+  padding-left: 30px;
+}
+
+.information_right_top {
+  text-align: center;
+}
+
+.detail_img {
+  width: 150px;
+  height: 200px;
+}
+
+.information_right_bottom {
+  text-align: center;
+}
+
+.book_btn {
+  background-color: #329eb1;
+  padding-left: 40px;
+  padding-right: 40px;
+}
+
+.play {
+  background-color: #00586a;
+  padding-left: 33px;
+  padding-right: 32px;
+}
+
+button {
+  color: white;
+  border: none;
+  padding: 10px;
+  text-align: center;
+}
