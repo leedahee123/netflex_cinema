@@ -59,11 +59,11 @@ body {
     padding-top: 15px;
 }
 
-.email{
+.id{
     padding-top: 20px;
 }
 
-.email_box, .password_box {
+.id_box, .password_box {
     padding: 10px 20px 10px 20px;
     background-color: #333;
     border: 0;

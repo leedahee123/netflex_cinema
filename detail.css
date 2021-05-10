@@ -81,27 +81,55 @@ body {
 } */
 
 .detail_page {
-/*     display: flex;
-    justify-content: center; */
+    display: flex;
+    justify-content: center;
     padding-top: 50px;
     /* padding-right: 35px; */
     padding-bottom: 50px;
     /* padding-left: 20px; */
-    width: 94%;
-    padding: 50px 0px 50px 40px;
+    width: 100%;
     height: 100vh;
 }
 
-.search{
-    text-align: center;
-    padding-bottom: 30px;
+.information_left{
+    text-align: left;
+    width: 500px;
+    /* padding-right: 30px;
+    padding-left: 20px; */
 }
 
-.search_box{
-    padding: 12px;
-    padding-right: 100px;
+.information_right{
+    padding-left: 30px;
+}
+
+.information_right_top{
+    text-align: center;
+}
+
+.detail_img{
+    width: 150px;
+    height: 200px;
+}
+
+.information_right_bottom{
+    text-align: center;
+}
+
+.book_btn{
+    background-color: #329eb1;
+    padding-left: 40px;
+    padding-right: 40px;
+}
+
+.play {
+    background-color: #00586a;
+    padding-left: 33px;
+    padding-right: 32px;
 }
 
 button{
+    color: white;
+    border: none;
     padding: 10px;
+    text-align: center;
 }

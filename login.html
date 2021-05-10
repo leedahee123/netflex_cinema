@@ -20,8 +20,8 @@
                         <h1>로그인</h1>
                     </div>
                     <form action="" method="GET" name="form" onsubmit="check();">
-                        <div class="email">
-                            <input type="email" class="email_box" name="email_label" id="useremail" placeholder="이메일">
+                        <div class="id">
+                            <input type="id" class="id_box" name="id_label" id="userid" placeholder="아이디">
                         </div>
                         <div class="password">
                             <input type="password" class="password_box" name="pw_label" id="userpassword" placeholder="비밀번호">
@@ -46,10 +46,10 @@
                         loginButton.addEventListener('click', loginFunc) // 'click'이란 id의 버튼을 누르면 signinFunc 함수를 실행.
 
                         function loginFunc () {
-                        var useremail = document.getElementById("useremail").value; // userid 의 값을 받아와 넣음.
+                        var userid = document.getElementById("userid").value; // userid 의 값을 받아와 넣음.
                         var userpassword = document.getElementById("userpassword").value; // userpw 의 값을 받아와 넣음.
 
-                        if(useremail == "lee111da11@naver.com" && userpassword == "12345678") {
+                        if(userid == "lee111da11" && userpassword == "12345678") {
                             alert("로그인 성공");
                             console.log("로그인 성공했습니다.");
                             location.href = "/index.html";
